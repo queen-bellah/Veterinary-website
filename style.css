@@ -1,0 +1,1525 @@
+#firstimage{
+    position: relative;
+    width: 600px;
+    height: 500px;
+    object-fit: contain;
+    right: -1000px;
+}
+h1{
+    position: absolute;
+    top: 200px;
+}
+#container1{
+    display: flex;
+    background-color: aquamarine;
+}
+#get{
+    position: absolute;
+   width: 140px;
+    height: 30px;
+    top: 320px;
+    left: 460px;
+    background-color: blue;
+    color:white;
+
+}
+#playbut{
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    top: 310px;
+    left: 600px;
+}
+#we{
+    position: absolute;
+    top: 300px;
+
+}
+#vet{
+    position: absolute;
+    color: orange;
+    top: 100px;
+    left: 200px;
+}
+#vet::before{
+content: "";
+display: block;
+width: 80px;
+height: 2px;
+background: black;
+
+
+}
+#topnav {
+    position: absolute;
+    color: white;
+    top: 50px;
+    left: 300px;
+    display: flex;
+    gap:2px ;
+   
+  
+    
+  }
+  
+  #topnav a {
+    text-align: center;
+    color:black;
+    top: 300px;
+    left: 650px;
+    float: left;
+    color:black;
+    text-align: center;
+   padding: 5px 200px 10px 60px;
+  gap: 50px;
+    font-size: 17px;
+  
+  }
+  
+  #topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  #topnav a.active {
+   
+    color:white;
+    text-align: center;
+  }
+
+#words{
+  display: grid;
+  grid-template-columns: auto;
+}
+#which{
+    top:500px ;
+}
+#your{
+    position: absolute;
+    left: 1000px;
+}
+.middlechid{
+    display: flex;
+    flex-direction: row;
+    top: 820px;
+    gap: 25%;
+    font-size: 20px;
+  }
+  .firstborn{
+    display: flex;
+    flex-direction: row;
+    top: 800px;
+    /* width: 400px; */
+    gap: 25%;
+    font-size: 20px;
+  }
+ 
+  .parent{
+    gap: 50%;
+    width: 20px;
+    top: 800px;
+  }
+  h6{
+    margin-left: 600px;
+    font-size: 20px;
+  }
+
+#container2 button{
+  height: 40px;
+  width: 100px;
+  top: 2000px;
+}
+
+  #container2{
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+    padding: 20px 20px;
+}
+
+#wordss{
+    display: grid;
+    grid-template-columns: auto;
+  }
+  #what{
+      top:1540px ;
+  }
+  #you{
+      position: absolute;
+      left: 1000px;
+  }
+  #allwords{
+    display: flex;
+  }
+#secondpara{
+    margin-left: 500px;
+    font-size: 22px;
+}
+#firstpara{
+    margin-left: 60px;
+    font-size: 22px;
+}
+.docs{
+    display: flex;
+    gap: 12%;
+  
+}
+body{
+margin-left: 150px;
+margin-right: 50px;
+overflow-x: hidden;
+}
+#stars{
+ color: darkorange;
+}
+#small{
+  display: flex;
+  flex-direction: row;
+}
+#qua{
+  top: 1980px;
+}
+#sub{
+  top: 2500px;
+  left: 800px;
+  font-size: 50px;
+
+}
+#blog{
+  display: flex;
+  flex-direction: row;
+  background-color: aquamarine;
+  height: 250px;
+  top: 2600px;
+}
+#us{
+  height: 52px;
+  width: 140px;
+  margin-left: -140px;
+  margin-top: 180px;
+  color: #ddd;
+  background-color: blue;
+}
+#enter{
+  height: 50px;
+  width: 600px;
+  margin-left: 600px;
+  margin-top: 180px;
+}
+#male2{
+  width: 350px;
+  height: 400px;
+  object-fit: contain;
+}
+#male1{
+  width: 350px;
+  height: 400px;
+  object-fit: contain;
+}
+#lady{
+  width: 350px;
+  height: 400px;
+  object-fit: contain;
+}
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: large;
+}
+#pic1{
+  width: 100px;
+}
+
+#pic2{
+  width: 50px;
+}
+#pic3{
+  width: 50px;
+}
+#pic4{
+  width: 50px;
+}
+#pic5{
+  width: 50px;
+}
+#pic6{
+  width: 50px;
+}
+
+@media screen and (min-width:375px) and (max-width:435px) {
+
+#firstimage{
+    position: relative;
+    width: 100px;
+    height: 500px;
+    object-fit: contain;
+    right: -8px;
+    top: -200px;
+}
+#container1{
+  display: grid;
+  background-color: aquamarine;
+  width: 310px;
+  height: 420px;
+}
+body{
+  margin-left: 30px;
+  margin-right: 50px;
+  overflow-x: hidden;
+  }
+  #topnav a {
+    text-align: center;
+    color:black;
+    top: 300px;
+    left: 50px;
+    float: left;
+    color:black;
+    text-align: center;
+   padding: 5px 20px 5px 6px;
+  gap: 1px;
+    font-size: 10px;
+  
+  }
+  #topnav {
+    position: absolute;
+    color: white;
+    top: 19px;
+    left: -3px;
+    display: flex;
+    gap:1px ;
+      
+  }
+  #get{
+    position: absolute;
+   width: 140px;
+    height: 30px;
+    top: 380px;
+    left: 60px;
+    background-color: blue;
+    color:white;
+
+}
+#playbut{
+  position: absolute;
+  width: 50px;
+  height: 40px;
+  top: 375px;
+  left: 210px;
+}
+.middlechid{
+  display: grid;
+ 
+  top: 820px;
+  gap: 2%;
+  font-size: 10px;
+}
+.firstborn{
+  display: grid;
+  
+  top: 860px;
+  /* width: 400px; */
+  gap: 2%;
+  font-size: 10px;
+}
+#words{
+  display: grid;
+ 
+}
+#which{
+    top:410px ;
+}
+#your{
+    position: absolute;
+    left: 100px;
+    top:460px ;
+}
+#container2{
+  display: grid;
+  background-color: aquamarine;
+  padding: 10px 10px;
+  height: 280px;
+}
+h6{
+  margin-left: 60px;
+  font-size: 10px;
+ 
+}
+#what{
+margin-top:210px;
+}
+#wordss{
+  display: grid;
+  margin-top:100px;
+}
+#you{
+  left: 70px;
+  top: 1800px;
+}
+#allwords{
+  display: grid;
+  gap: 1px;
+ 
+}
+#firstpara{
+  margin-left: 20px;
+  font-size: 10px;
+margin-top: 200px;
+}
+#secondpara{
+  margin-left: 20px;
+  font-size: 10px;
+  margin-top: 100px;
+}
+#qua{
+  font-size: 12px;
+  margin-top: 500px;
+}
+.docs{
+  display: grid;
+  gap: 2%;
+
+}
+#male2{
+  width: 200px;
+  height: 400px;
+  object-fit: contain;
+}
+#male1{
+  width: 200px;
+  height: 400px;
+  object-fit: contain;
+}
+#lady{
+  width: 200px;
+  height: 400px;
+  object-fit: contain;
+}
+#blog{
+  display: grid;
+  background-color: aquamarine;
+  height: 350px;
+margin-top: 200px;
+}
+#sub{
+  top: 4300px;
+  left: 80px;
+  font-size: 20px;
+
+}
+#enter{
+  height: 30px;
+  width: 200px;
+  margin-left: 1px;
+  margin-top: 250px;
+}
+#us{
+  height: 52px;
+  width: 100px;
+  margin-left: 4px;
+  margin-top: 0px;
+  color: #ddd;
+  background-color: blue;
+}
+.footer{
+  display: grid;
+  justify-content: space-evenly;
+  font-size: large;
+}
+
+}
+
+@media screen and (width:540px)  {
+
+  #firstimage{
+    position: relative;
+    width: 100px;
+    height: 500px;
+    object-fit: contain;
+    right: -300px;
+    top: -200px;
+}
+#container1{
+  display: grid;
+  background-color: aquamarine;
+  width: 450px;
+  height: 420px;
+}
+body{
+  margin-left: 30px;
+  margin-right: 50px;
+  overflow-x: hidden;
+  }
+  #topnav a {
+    text-align: center;
+    color:black;
+    top: 300px;
+    left: 50px;
+    float: left;
+    color:black;
+    text-align: center;
+   padding: 5px 20px 5px 6px;
+  gap: 1px;
+    font-size: 10px;
+  
+  }
+  #topnav {
+    position: absolute;
+    color: white;
+    top: 19px;
+    left: -3px;
+    display: flex;
+    gap:1px ;
+      
+  }
+  #get{
+    position: absolute;
+   width: 140px;
+    height: 30px;
+    top: 380px;
+    left: 60px;
+    background-color: blue;
+    color:white;
+
+}
+#playbut{
+  position: absolute;
+  width: 50px;
+  height: 40px;
+  top: 375px;
+  left: 210px;
+}
+.middlechid{
+  display: grid;
+ 
+  top: 820px;
+  gap: 2%;
+  font-size: 12px;
+}
+.firstborn{
+  display: grid;
+  
+  top: 860px;
+  /* width: 400px; */
+  gap: 2%;
+  font-size: 12px;
+}
+#words{
+  display: grid;
+ 
+}
+#which{
+    top:410px ;
+}
+#your{
+    position: absolute;
+    left: 100px;
+    top:460px ;
+}
+#container2{
+  display: grid;
+  background-color: aquamarine;
+  padding: 10px 10px;
+  height: 280px;
+}
+h6{
+  margin-left: 60px;
+  font-size: 12px;
+ 
+}
+#what{
+margin-top:350px;
+}
+#wordss{
+  display: grid;
+  margin-top:100px;
+}
+#you{
+  left: 70px;
+  top: 1950px;
+}
+#allwords{
+  display: grid;
+  gap: 1px;
+ 
+}
+#firstpara{
+  margin-left: 20px;
+  font-size: 10px;
+margin-top: 200px;
+}
+#secondpara{
+  margin-left: 20px;
+  font-size: 10px;
+  margin-top: 100px;
+}
+#qua{
+  font-size: 12px;
+  margin-top: 500px;
+}
+.docs{
+  display: grid;
+  gap: 2%;
+
+}
+#male2{
+  width: 200px;
+  height: 400px;
+  object-fit: contain;
+}
+#male1{
+  width: 200px;
+  height: 400px;
+  object-fit: contain;
+}
+#lady{
+  width: 200px;
+  height: 400px;
+  object-fit: contain;
+}
+#blog{
+  display: grid;
+  background-color: aquamarine;
+  height: 350px;
+margin-top: 200px;
+}
+#sub{
+  top: 4400px;
+  left: 80px;
+  font-size: 25px;
+
+}
+#enter{
+  height: 30px;
+  width: 200px;
+  margin-left: 1px;
+  margin-top: 200px;
+}
+#us{
+  height: 52px;
+  width: 100px;
+  margin-left: 4px;
+  margin-top: 0px;
+  color: #ddd;
+  background-color: blue;
+}
+.footer{
+  display: grid;
+  justify-content: space-evenly;
+  font-size: large;
+}
+
+}
+@media screen and (width:768px)  {
+
+  #firstimage{
+    position: relative;
+    width: 100px;
+    height: 500px;
+    object-fit: contain;
+    right: -300px;
+    top: -200px;
+}
+#container1{
+  display: grid;
+  background-color: aquamarine;
+  width: 450px;
+  height: 420px;
+}
+body{
+  margin-left: 30px;
+  margin-right: 50px;
+  overflow-x: hidden;
+  }
+  #topnav a {
+    text-align: center;
+    color:black;
+    top: 300px;
+    left: 50px;
+    float: left;
+    color:black;
+    text-align: center;
+   padding: 5px 20px 5px 6px;
+  gap: 1px;
+    font-size: 15px;
+  
+  }
+  #topnav {
+    position: absolute;
+    color: white;
+    top: 19px;
+    left: -3px;
+    display: flex;
+    gap:1px ;
+      
+  }
+  #get{
+    position: absolute;
+   width: 140px;
+    height: 30px;
+    top: 380px;
+    left: 60px;
+    background-color: blue;
+    color:white;
+
+}
+#playbut{
+  position: absolute;
+  width: 50px;
+  height: 40px;
+  top: 375px;
+  left: 210px;
+}
+.middlechid{
+  display: grid;
+ 
+  top: 820px;
+  gap: 2%;
+  font-size: 15px;
+}
+.firstborn{
+  display: grid;
+  
+  top: 860px;
+  /* width: 400px; */
+  gap: 2%;
+  font-size: 15px;
+}
+#words{
+  display: grid;
+ 
+}
+#which{
+    top:410px ;
+}
+#your{
+    position: absolute;
+    left: 100px;
+    top:460px ;
+}
+#container2{
+  display: grid;
+  background-color: aquamarine;
+  padding: 10px 10px;
+  height: 280px;
+}
+h6{
+  margin-left: 60px;
+  font-size: 15px;
+ 
+}
+#what{
+margin-top:460px;
+}
+#wordss{
+  display: grid;
+  margin-top:120px;
+}
+#you{
+  left: 70px;
+  top: 2050px;
+}
+#allwords{
+  display: grid;
+  gap: 1px;
+ 
+}
+#firstpara{
+  margin-left: 20px;
+  font-size: 16px;
+margin-top: 200px;
+}
+#secondpara{
+  margin-left: 20px;
+  font-size: 16px;
+  margin-top: 100px;
+}
+#qua{
+  font-size: 12px;
+  margin-top: 500px;
+}
+.docs{
+  display: grid;
+  gap: 2%;
+
+}
+#male2{
+  width: 200px;
+  height: 400px;
+  object-fit: contain;
+}
+#male1{
+  width: 200px;
+  height: 400px;
+  object-fit: contain;
+}
+#lady{
+  width: 200px;
+  height: 400px;
+  object-fit: contain;
+}
+#blog{
+  display: grid;
+  background-color: aquamarine;
+  height: 350px;
+margin-top: 200px;
+}
+#sub{
+  top: 4700px;
+  left: 80px;
+  font-size: 25px;
+
+}
+#enter{
+  height: 30px;
+  width: 200px;
+  margin-left: 1px;
+  margin-top: 200px;
+}
+#us{
+  height: 52px;
+  width: 100px;
+  margin-left: 4px;
+  margin-top: 0px;
+  color: #ddd;
+  background-color: blue;
+}
+.footer{
+  display: grid;
+  justify-content: space-evenly;
+  font-size: large;
+}
+
+}
+@media screen and (width:820px)  {
+
+  #firstimage{
+    position: relative;
+    width: 100px;
+    height: 500px;
+    object-fit: contain;
+    right: -480px;
+    top: -200px;
+}
+#container1{
+  display: grid;
+  background-color: aquamarine;
+  width: 650px;
+  height: 420px;
+}
+body{
+  margin-left: 30px;
+  margin-right: 50px;
+  overflow-x: hidden;
+  }
+  #topnav a {
+    text-align: center;
+    color:black;
+    top: 300px;
+    left: 50px;
+    float: left;
+    color:black;
+    text-align: center;
+   padding: 5px 20px 5px 6px;
+  gap: 1px;
+    font-size: 15px;
+  
+  }
+  #topnav {
+    position: absolute;
+    color: white;
+    top: 19px;
+    left: -3px;
+    display: flex;
+    gap:1px ;
+      
+  }
+  #get{
+    position: absolute;
+   width: 140px;
+    height: 30px;
+    top: 380px;
+    left: 60px;
+    background-color: blue;
+    color:white;
+
+}
+#playbut{
+  position: absolute;
+  width: 50px;
+  height: 40px;
+  top: 375px;
+  left: 210px;
+}
+.middlechid{
+  display: grid;
+ 
+  top: 820px;
+  gap: 2%;
+  font-size: 15px;
+}
+.firstborn{
+  display: grid;
+  
+  top: 860px;
+  /* width: 400px; */
+  gap: 2%;
+  font-size: 15px;
+}
+#words{
+  display: grid;
+ 
+}
+#which{
+    top:410px ;
+}
+#your{
+    position: absolute;
+    left: 100px;
+    top:460px ;
+}
+#container2{
+  display: grid;
+  background-color: aquamarine;
+  padding: 10px 10px;
+  height: 280px;
+}
+h6{
+  margin-left: 60px;
+  font-size: 15px;
+ 
+}
+#what{
+margin-top:460px;
+}
+#wordss{
+  display: grid;
+  margin-top:120px;
+}
+#you{
+  left: 70px;
+  top: 2050px;
+}
+#allwords{
+  display: grid;
+  gap: 1px;
+ 
+}
+#firstpara{
+  margin-left: 20px;
+  font-size: 16px;
+margin-top: 200px;
+}
+#secondpara{
+  margin-left: 20px;
+  font-size: 16px;
+  margin-top: 100px;
+}
+#qua{
+  font-size: 12px;
+  margin-top: 500px;
+}
+.docs{
+  display: grid;
+  gap: 2%;
+
+}
+#male2{
+  width: 200px;
+  height: 400px;
+  object-fit: contain;
+}
+#male1{
+  width: 200px;
+  height: 400px;
+  object-fit: contain;
+}
+#lady{
+  width: 200px;
+  height: 400px;
+  object-fit: contain;
+}
+#blog{
+  display: grid;
+  background-color: aquamarine;
+  height: 350px;
+margin-top: 200px;
+}
+#sub{
+  top: 4700px;
+  left: 80px;
+  font-size: 25px;
+
+}
+#enter{
+  height: 30px;
+  width: 200px;
+  margin-left: 1px;
+  margin-top: 200px;
+}
+#us{
+  height: 52px;
+  width: 100px;
+  margin-left: 4px;
+  margin-top: 0px;
+  color: #ddd;
+  background-color: blue;
+}
+.footer{
+  display: grid;
+  justify-content: space-evenly;
+  font-size: large;
+}
+
+}
+
+
+@media screen and (width:912px)  {
+
+  #firstimage{
+    position: relative;
+    width: 100px;
+    height: 500px;
+    object-fit: contain;
+    right: -580px;
+    top: -200px;
+}
+#container1{
+  display: grid;
+  background-color: aquamarine;
+  width: 750px;
+  height: 420px;
+}
+body{
+  margin-left: 30px;
+  margin-right: 50px;
+  overflow-x: hidden;
+  }
+  #topnav a {
+    text-align: center;
+    color:black;
+    top: 300px;
+    left: 50px;
+    float: left;
+    color:black;
+    text-align: center;
+   padding: 5px 20px 5px 6px;
+  gap: 1px;
+    font-size: 15px;
+  
+  }
+  #topnav {
+    position: absolute;
+    color: white;
+    top: 19px;
+    left: -3px;
+    display: flex;
+    gap:1px ;
+      
+  }
+  #get{
+    position: absolute;
+   width: 140px;
+    height: 30px;
+    top: 380px;
+    left: 60px;
+    background-color: blue;
+    color:white;
+
+}
+#playbut{
+  position: absolute;
+  width: 50px;
+  height: 40px;
+  top: 375px;
+  left: 210px;
+}
+.middlechid{
+  display: grid;
+ 
+  top: 820px;
+  gap: 2%;
+  font-size: 20px;
+}
+.firstborn{
+  display: grid;
+  
+  top: 860px;
+  /* width: 400px; */
+  gap: 2%;
+  font-size: 20px;
+}
+#words{
+  display: grid;
+ 
+}
+#which{
+    top:410px ;
+}
+#your{
+    position: absolute;
+    left: 100px;
+    top:460px ;
+}
+#container2{
+  display: grid;
+  background-color: aquamarine;
+  padding: 10px 10px;
+  height: 280px;
+}
+h6{
+  margin-left: 60px;
+  font-size: 20px;
+ 
+}
+#what{
+margin-top:750px;
+}
+#wordss{
+  display: grid;
+  margin-top:120px;
+}
+#you{
+  left: 70px;
+  top: 2330px;
+
+  font-size: 20px;
+}
+#allwords{
+  display: grid;
+  gap: 1px;
+ 
+}
+#firstpara{
+  margin-left: 20px;
+  font-size: 20px;
+margin-top: 230px;
+}
+#secondpara{
+  margin-left: 20px;
+  font-size: 18px;
+  margin-top: 100px;
+}
+#qua{
+  font-size: 20px;
+  margin-top: 500px;
+}
+.docs{
+  display: grid;
+  gap: 2%;
+
+}
+#male2{
+  width: 300px;
+  height: 400px;
+  object-fit: contain;
+}
+#male1{
+  width: 300px;
+  height: 400px;
+  object-fit: contain;
+}
+#lady{
+  width: 300px;
+  height: 400px;
+  object-fit: contain;
+}
+#blog{
+  display: grid;
+  background-color: aquamarine;
+  height: 350px;
+margin-top: 200px;
+}
+#sub{
+  top: 5000px;
+  left: 80px;
+  font-size: 25px;
+
+}
+#enter{
+  height: 30px;
+  width: 200px;
+  margin-left: 1px;
+  margin-top: 140px;
+}
+#us{
+  height: 52px;
+  width: 100px;
+  margin-left: 4px;
+  margin-top: 0px;
+  color: #ddd;
+  background-color: blue;
+}
+.footer{
+  display: grid;
+  justify-content: space-evenly;
+  font-size: 24px;
+}
+
+}
+@media screen and (width:1024px)  {
+
+  #firstimage{
+    position: relative;
+    width: 100px;
+    height: 500px;
+    object-fit: contain;
+    right: -580px;
+    top: -200px;
+}
+#container1{
+  display: grid;
+  background-color: aquamarine;
+  width: 750px;
+  height: 420px;
+}
+body{
+  margin-left: 30px;
+  margin-right: 50px;
+  overflow-x: hidden;
+  }
+  #topnav a {
+    text-align: center;
+    color:black;
+    top: 300px;
+    left: 50px;
+    float: left;
+    color:black;
+    text-align: center;
+   padding: 5px 20px 5px 6px;
+  gap: 1px;
+    font-size: 15px;
+  
+  }
+  #topnav {
+    position: absolute;
+    color: white;
+    top: 19px;
+    left: -3px;
+    display: flex;
+    gap:1px ;
+      
+  }
+  #get{
+    position: absolute;
+   width: 140px;
+    height: 30px;
+    top: 380px;
+    left: 60px;
+    background-color: blue;
+    color:white;
+
+}
+#playbut{
+  position: absolute;
+  width: 50px;
+  height: 40px;
+  top: 375px;
+  left: 210px;
+}
+.middlechid{
+  display: grid;
+ 
+  top: 820px;
+  gap: 2%;
+  font-size: 20px;
+}
+.firstborn{
+  display: grid;
+  
+  top: 860px;
+  /* width: 400px; */
+  gap: 2%;
+  font-size: 20px;
+}
+#words{
+  display: grid;
+ 
+}
+#which{
+    top:410px ;
+}
+#your{
+    position: absolute;
+    left: 100px;
+    top:460px ;
+}
+#container2{
+  display: grid;
+  background-color: aquamarine;
+  padding: 10px 10px;
+  height: 280px;
+}
+h6{
+  margin-left: 60px;
+  font-size: 20px;
+ 
+}
+#what{
+margin-top:750px;
+}
+#wordss{
+  display: grid;
+  margin-top:120px;
+}
+#you{
+  left: 70px;
+  top: 2330px;
+
+  font-size: 20px;
+}
+#allwords{
+  display: grid;
+  gap: 1px;
+ 
+}
+#firstpara{
+  margin-left: 20px;
+  font-size: 20px;
+margin-top: 230px;
+}
+#secondpara{
+  margin-left: 20px;
+  font-size: 18px;
+  margin-top: 100px;
+}
+#qua{
+  font-size: 20px;
+  margin-top: 500px;
+}
+.docs{
+  display: grid;
+  gap: 2%;
+
+}
+#male2{
+  width: 300px;
+  height: 400px;
+  object-fit: contain;
+}
+#male1{
+  width: 300px;
+  height: 400px;
+  object-fit: contain;
+}
+#lady{
+  width: 300px;
+  height: 400px;
+  object-fit: contain;
+}
+#blog{
+  display: grid;
+  background-color: aquamarine;
+  height: 350px;
+margin-top: 200px;
+}
+#sub{
+  top: 5000px;
+  left: 80px;
+  font-size: 25px;
+
+}
+#enter{
+  height: 30px;
+  width: 200px;
+  margin-left: 1px;
+  margin-top: 140px;
+}
+#us{
+  height: 52px;
+  width: 100px;
+  margin-left: 4px;
+  margin-top: 0px;
+  color: #ddd;
+  background-color: blue;
+}
+.footer{
+  display: grid;
+  justify-content: space-evenly;
+  font-size: 24px;
+}
+
+}
+@media screen and (width:1280px)  {
+
+  #firstimage{
+    position: relative;
+    width: 100px;
+    height: 500px;
+    object-fit: contain;
+    right: -580px;
+    top: -200px;
+}
+#container1{
+  display: grid;
+  background-color: aquamarine;
+  width: 1080px;
+  height: 420px;
+}
+body{
+  margin-left: 30px;
+  margin-right: 50px;
+  overflow-x: hidden;
+  }
+  #topnav a {
+    text-align: center;
+    color:black;
+    top: 300px;
+    left: 50px;
+    float: left;
+    color:black;
+    text-align: center;
+   padding: 5px 20px 5px 6px;
+  gap: 1px;
+    font-size: 15px;
+  
+  }
+  #topnav {
+    position: absolute;
+    color: white;
+    top: 19px;
+    left: -3px;
+    display: flex;
+    gap:1px ;
+      
+  }
+  #get{
+    position: absolute;
+   width: 140px;
+    height: 30px;
+    top: 380px;
+    left: 60px;
+    background-color: blue;
+    color:white;
+
+}
+#playbut{
+  position: absolute;
+  width: 50px;
+  height: 40px;
+  top: 375px;
+  left: 210px;
+}
+.middlechid{
+  display: grid;
+ 
+  top: 820px;
+  gap: 2%;
+  font-size: 20px;
+}
+.firstborn{
+  display: grid;
+  
+  top: 860px;
+  /* width: 400px; */
+  gap: 2%;
+  font-size: 20px;
+}
+#words{
+  display: grid;
+ 
+}
+#which{
+    top:410px ;
+}
+#your{
+    position: absolute;
+    left: 100px;
+    top:460px ;
+}
+#container2{
+  display: grid;
+  background-color: aquamarine;
+  padding: 10px 10px;
+  height: 280px;
+}
+h6{
+  margin-left: 60px;
+  font-size: 20px;
+ 
+}
+#what{
+margin-top:750px;
+}
+#wordss{
+  display: grid;
+  margin-top:120px;
+}
+#you{
+  left: 70px;
+  top: 2330px;
+
+  font-size: 20px;
+}
+#allwords{
+  display: grid;
+  gap: 1px;
+ 
+}
+#firstpara{
+  margin-left: 20px;
+  font-size: 20px;
+margin-top: 230px;
+}
+#secondpara{
+  margin-left: 20px;
+  font-size: 18px;
+  margin-top: 100px;
+}
+#qua{
+  font-size: 25px;
+  margin-top: 500px;
+}
+.docs{
+  display: grid;
+  gap: 2%;
+font-size: 28px;
+}
+#male2{
+  width: 300px;
+  height: 400px;
+  object-fit: contain;
+}
+#male1{
+  width: 300px;
+  height: 400px;
+  object-fit: contain;
+}
+#lady{
+  width: 300px;
+  height: 400px;
+  object-fit: contain;
+}
+#blog{
+  display: grid;
+  background-color: aquamarine;
+  height: 350px;
+margin-top: 200px;
+}
+#sub{
+  top: 5000px;
+  left: 80px;
+  font-size: 25px;
+
+}
+#enter{
+  height: 30px;
+  width: 200px;
+  margin-left: 1px;
+  margin-top: 140px;
+}
+#us{
+  height: 52px;
+  width: 100px;
+  margin-left: 4px;
+  margin-top: 0px;
+  color: #ddd;
+  background-color: blue;
+}
+.footer{
+  display: grid;
+  justify-content: space-evenly;
+  font-size: 24px;
+}
+
+}
+
